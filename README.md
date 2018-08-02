@@ -11,7 +11,7 @@
 
 2. [用 iOS 在手Q阅读书友交流区发表书评时，光标点击总是不好定位到正确的位置](https://www.cnblogs.com/vajoy/p/5522114.html)
     -   2.1 额外总结：对于自己发现的奇怪现象，又觉得无法定位的时候，就去对比相同结构的页面，看看他们的页面有没有相同的问题。
-    -   2.2 关于fastclick的源码阅读，由于里面有很多的hack，可能阻碍阅读，建议大致知道先跳过。 主流程 touchstart => toutchend => e.preventDefault , dispatchEvent => clic。 注意有个preventDefault，他其实是会阻止原生click点击和mousemove这样的事件。
+    -   2.2 关于fastclick的源码阅读，由于里面有很多的hack，可能阻碍阅读，建议大致知道先跳过。 主流程 touchstart => toutchend => e.preventDefault , dispatchEvent => click。 注意有个preventDefault，他其实是会阻止原生click点击和mousemove这样的事件,然后自己触发自定义click事件，这样就避免了300ms延迟。
 
 3. [移动端的touch click事件的理解+点透](https://www.jianshu.com/p/dc3bceb10dbb)
    总结起来就是:
