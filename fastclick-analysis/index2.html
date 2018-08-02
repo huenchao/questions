@@ -1,0 +1,10 @@
+<div id="test" style="width: 100px;height: 100px;background-color: red"></div>
+<script>
+   document.getElementById("test").addEventListener('touchend',function(e){
+       e.preventDefault();
+       console.log(1111)
+   });
+   document.getElementById("test").addEventListener('click',function(e){
+      console.log(2222)
+   })
+</script>

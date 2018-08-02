@@ -299,12 +299,14 @@
 			document.activeElement.blur();
 		}
 
-		touch = event.changedTouches[0];
+        touch = event.changedTouches[0];
+        console.log('event.changedTouches',event.changedTouches)
 
 		// Synthesise a click event, with an extra attribute so it can be tracked
 		clickEvent = document.createEvent('MouseEvents');
 		clickEvent.initMouseEvent(this.determineEventType(targetElement), true, true, window, 1, touch.screenX, touch.screenY, touch.clientX, touch.clientY, false, false, false, false, 0, null);
-		clickEvent.forwardedTouchEvent = true;
+        clickEvent.forwardedTouchEvent = true;
+        console.log('clickEvent',clickEvent)
 		targetElement.dispatchEvent(clickEvent);
 	};
 
@@ -439,9 +441,25 @@
 		this.targetElement = targetElement;
 
 		this.touchStartX = touch.pageX;
-		this.touchStartY = touch.pageY;
+        this.touchStartY = touch.pageY;
 
-		// Prevent phantom clicks on fast double-tap (issue #36)
+        console.log(
+            'this.trackingClickStart ',this.trackingClickStart 
+        )
+        console.log(
+            'this.targetElement ',this.targetElement 
+        )   
+
+
+        console.log(
+            'this.touchStartX ',this.touchStartX 
+        )
+        
+       console.log(
+           'this.touchStartY ',this.touchStartY 
+       )
+
+        // Prevent phantom clicks on fast double-tap (issue #36)
 		if ((event.timeStamp - this.lastClickTime) < this.tapDelay) {
 			event.preventDefault();
 		}
@@ -519,6 +537,7 @@
 	 * @returns {boolean}
 	 */
 	FastClick.prototype.onTouchEnd = function(event) {
+        console.log('onTouchEnd')
 		var forElement, trackingClickStart, targetTagName, scrollParent, touch, targetElement = this.targetElement;
 
 		if (!this.trackingClick) {
@@ -602,6 +621,7 @@
 		// Prevent the actual click from going though - unless the target node is marked as requiring
 		// real clicks or if it is in the whitelist in which case only non-programmatic clicks are permitted.
 		if (!this.needsClick(targetElement)) {
+            console.log('needsClick')
 			event.preventDefault();
 			this.sendClick(targetElement, event);
 		}
@@ -628,6 +648,7 @@
 	 * @returns {boolean}
 	 */
 	FastClick.prototype.onMouse = function(event) {
+        console.log('onMouse')
 
 		// If a target element was never set (because a touch event was never fired) allow the event
 		if (!this.targetElement) {
@@ -678,6 +699,7 @@
 	 * @returns {boolean}
 	 */
 	FastClick.prototype.onClick = function(event) {
+        console.log('onClick')
 		var permitted;
 
 		// It's possible for another FastClick-like library delivered with third-party code to fire a click event before FastClick does (issue #44). In that case, set the click-tracking flag back to false and return early. This will cause onTouchEnd to return early.
