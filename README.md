@@ -1,6 +1,6 @@
 #### 这里记录我的移动端开发搜集的坑和技巧
 
-> 案例一，移动端普见的300ms延迟带来的各种为题：
+> 案例一，移动端普见的300ms延迟带来的各种问题：
 
 1. [a标签的href属性与click事件的烦恼](http://hcysun.me/2015/11/26/a%E6%A0%87%E7%AD%BE%E7%9A%84href%E5%B1%9E%E6%80%A7%E4%B8%8Eclick%E4%BA%8B%E4%BB%B6%E7%9A%84%E7%83%A6%E6%81%BC/)
    本文讲述的是核心就是当点击浏览器a标签的时候，浏览器的默认机制如下：
@@ -23,3 +23,6 @@
 > 案例二，移动端适配问题：
 
 1. 
+
+> 性能分析
+1. [谷歌调试工具](https://developers.google.com/web/tools/chrome-devtools/network-performance/)
