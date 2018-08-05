@@ -23,12 +23,24 @@
 > 案例二，移动端适配问题：
 
 1. [一篇真正教会你开发移动端页面的文章(一)](http://hcysun.me/2015/10/16/%E4%B8%80%E7%AF%87%E7%9C%9F%E6%AD%A3%E6%95%99%E4%BC%9A%E4%BD%A0%E5%BC%80%E5%8F%91%E7%A7%BB%E5%8A%A8%E7%AB%AF%E9%A1%B5%E9%9D%A2%E7%9A%84%E6%96%87%E7%AB%A0(%E4%B8%80)/)
-   -    1.1 dpr = 实际手机像素／device-width、缩放的原理是缩放css像素。html的width是基于布局视口的，所以html的100%的宽度就是基于它来计算的。（布局视口、视觉视口、理想适口）
-   -    1;2 关于[h5移动端基本知识科普](https://github.com/riskers/blog/issues/17);
+   -    1.1 dpr = 实际手机像素／device-width、缩放的原理是缩放css像素、html的width是基于布局视口(document.documentElement.clientWidth)的，所以html的100%的宽度就是基于它来计算的。（布局视口|document.documentElement.clientWidth、视觉视口、理想适口|screen.width).
+   -    1.2 关于[h5移动端基本知识科普](https://github.com/riskers/blog/issues/17);
 2. [一篇真正教会你开发移动端页面的文章(二)](http://hcysun.me/2015/10/19/%E4%B8%80%E7%AF%87%E7%9C%9F%E6%AD%A3%E6%95%99%E4%BC%9A%E4%BD%A0%E5%BC%80%E5%8F%91%E7%A7%BB%E5%8A%A8%E7%AB%AF%E9%A1%B5%E9%9D%A2%E7%9A%84%E6%96%87%E7%AB%A0-%E4%BA%8C/)   
    -    2.1 rem的使用、字体要用媒体查询、以100px的html font-size来设置rem方面计算。
-3. [51信用卡移动端适配的学习模版]()
+3. 51信用卡移动端适配的参考（3.2）：
+   -    3.1 [文档一](https://github.com/amfe/lib-flexible/blob/2.0/index.js):这个脚本设置了（1）1rem = documentElement.clientWidth / 10（这其实并不好，因为阅读过2. 文章，我们知道始终设置docEl的font-size为100px,会更好计算其他元素的rem值，也更准确！）。（2）detect 0.5px supports.
+   -    3.2 [文档二](https://github.com/amfe/article/issues/17):这篇文章里提到了`lib-flexible`和`px2rem`。
+
+
 > 性能分析
 1. [谷歌调试工具](https://developers.google.com/web/tools/chrome-devtools/)
     -   1.1 [网络性能优化](https://developers.google.com/web/tools/chrome-devtools/network-performance/)
     包括issue在内，有一些场景和优化方法，总结起来就是利用好 时间瀑布，看到底在哪一步慢了，然后排除法。
+
+> 监控
+
+> 打包工具
+
+> 加密技术
+
+> css    
