@@ -23,7 +23,11 @@
 > 案例二，移动端适配问题：
 
 1. [一篇真正教会你开发移动端页面的文章(一)](http://hcysun.me/2015/10/16/%E4%B8%80%E7%AF%87%E7%9C%9F%E6%AD%A3%E6%95%99%E4%BC%9A%E4%BD%A0%E5%BC%80%E5%8F%91%E7%A7%BB%E5%8A%A8%E7%AB%AF%E9%A1%B5%E9%9D%A2%E7%9A%84%E6%96%87%E7%AB%A0(%E4%B8%80)/)
-
+   -    1.1 dpr = 实际手机像素／device-width、缩放的原理是缩放css像素。html的width是基于布局视口的，所以html的100%的宽度就是基于它来计算的。（布局视口、视觉视口、理想适口）
+   -    1;2 关于[h5移动端基本知识科普](https://github.com/riskers/blog/issues/17);
+2. [一篇真正教会你开发移动端页面的文章(二)](http://hcysun.me/2015/10/19/%E4%B8%80%E7%AF%87%E7%9C%9F%E6%AD%A3%E6%95%99%E4%BC%9A%E4%BD%A0%E5%BC%80%E5%8F%91%E7%A7%BB%E5%8A%A8%E7%AB%AF%E9%A1%B5%E9%9D%A2%E7%9A%84%E6%96%87%E7%AB%A0-%E4%BA%8C/)   
+   -    2.1 rem的使用、字体要用媒体查询、以100px的html font-size来设置rem方面计算。
+3. [51信用卡移动端适配的学习模版]()
 > 性能分析
 1. [谷歌调试工具](https://developers.google.com/web/tools/chrome-devtools/)
     -   1.1 [网络性能优化](https://developers.google.com/web/tools/chrome-devtools/network-performance/)
