@@ -1,4 +1,4 @@
-#### 这里记录我的移动端开发搜集的坑和技巧
+#### 这里记录我搜集的坑和技巧
 
 > 案例一，移动端普见的300ms延迟带来的各种问题：
 
@@ -30,17 +30,33 @@
 3. 51信用卡移动端适配的参考（3.2）：
    -    3.1 [文档一](https://github.com/amfe/lib-flexible/blob/2.0/index.js):这个脚本设置了（1）1rem = documentElement.clientWidth / 10（这其实并不好，因为阅读过2. 文章，我们知道始终设置docEl的font-size为100px,会更好计算其他元素的rem值，也更准确！）。（2）detect 0.5px supports.
    -    3.2 [文档二](https://github.com/amfe/article/issues/17):这篇文章里提到了`lib-flexible`和`px2rem`。
-
+   -    3.3 [vh vw配合rem](https://juejin.im/entry/59b00e46f265da2491513bcc)
 
 > 性能分析
 1. [谷歌调试工具](https://developers.google.com/web/tools/chrome-devtools/)
-    -   1.1 [网络性能优化](https://developers.google.com/web/tools/chrome-devtools/network-performance/)
+   -   1.1 [网络性能优化](https://developers.google.com/web/tools/chrome-devtools/network-performance/)
     包括issue在内，有一些场景和优化方法，总结起来就是利用好 时间瀑布，看到底在哪一步慢了，然后排除法。
 
 > 监控
 
 > 打包工具
+   
 
 > 加密技术
 
 > css    
+
+> seo
+
+> 缓存方案
+
+> 模块加载技术 主要是CJS、ESM
+1. [CJS、ESM的相互引用](https://medium.com/@giltayar/native-es-modules-in-nodejs-status-and-future-directions-part-i-ee5ea3001f71
+)
+2. How do CommonJS modules work？
+   -    2.1[原理讲解](http://fredkschott.com/post/2014/06/require-and-the-module-system/)
+   -    2.2[源代码](https://github.com/nodejs/node/blob/master/lib/internal/modules/cjs/loader.js)
+
+   
+
+> AST
