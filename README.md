@@ -56,7 +56,12 @@
 2. How do CommonJS modules work？
    -    2.1[原理讲解](http://fredkschott.com/post/2014/06/require-and-the-module-system/)
    -    2.2[源代码](https://github.com/nodejs/node/blob/master/lib/internal/modules/cjs/loader.js)
-
+   -    2.3[帮组源码理解](http://www.infoq.com/cn/articles/nodejs-module-mechanism)
+   -    2.4[帮组源码理解](http://f2e.souche.com/blog/a-js-problem-about-global/)
    
 
 > AST
+
+> nodejs
+1. module.js:
+    1.1 看2.1、2.2、2.3
