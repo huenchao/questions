@@ -65,3 +65,7 @@
 > nodejs
 1. module.js:
     1.1 看2.1、2.2、2.3
+
+> git 
+1. 背景:前端现在不允许node_modules和 build 目录上传到gitlab上。不然会hook住，不让发布。 那对于以前的项目，确实已经上传了build目录。
+   解决的方案: git rm -rf bulid ，再push上去即可。
