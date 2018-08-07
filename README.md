@@ -32,10 +32,16 @@
    -    3.2 [文档二](https://github.com/amfe/article/issues/17):这篇文章里提到了`lib-flexible`和`px2rem`。
    -    3.3 [vh vw配合rem](https://juejin.im/entry/59b00e46f265da2491513bcc)
 
+> 移动端视频自动播放问题
+1. 
+
 > 性能分析
 1. [谷歌调试工具](https://developers.google.com/web/tools/chrome-devtools/)
    -   1.1 [网络性能优化](https://developers.google.com/web/tools/chrome-devtools/network-performance/)
     包括issue在内，有一些场景和优化方法，总结起来就是利用好 时间瀑布，看到底在哪一步慢了，然后排除法。
+
+> 前端各种距离
+
 
 > 监控
 
@@ -44,7 +50,14 @@
 
 > 加密技术
 
-> css    
+> css  
+
+> html  
+
+> js
+
+> 埋点技术
+1. [使用 navigator.sendBeacon() 上报数据 ](http://kaifage.com/notes/76/navigator-sendBeacon.html)
 
 > seo
 
@@ -67,5 +80,4 @@
     1.1 看2.1、2.2、2.3
 
 > git 
-1. 背景:前端现在不允许node_modules和 build 目录上传到gitlab上。不然会hook住，不让发布。 那对于以前的项目，确实已经上传了build目录。
-   解决的方案: git rm -rf bulid ，再push上去即可。
+1. 
