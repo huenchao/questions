@@ -35,6 +35,11 @@
 > 移动端视频自动播放问题
 1. 
 
+> 移动端出现[[Intervention] Unable to preventDefault inside passive event listener due to target being treated as passive. See…]
+1. [原因](https://developers.google.com/web/updates/2017/01/scrolling-intervention)
+2. [解决方案](https://blog.csdn.net/hhlljj0828/article/details/79497734)
+如果你用了fastclick这个库，然后出现了类似问题，可以尝试修改源码里的touchstart事件。
+
 > 性能分析
 1. [谷歌调试工具](https://developers.google.com/web/tools/chrome-devtools/)
    -   1.1 [网络性能优化](https://developers.google.com/web/tools/chrome-devtools/network-performance/)
