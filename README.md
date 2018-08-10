@@ -49,6 +49,8 @@
 
 
 > 监控
+1. [监控日志发现script error `crossorigin`](https://www.chrisyue.com/what-the-hell-is-crossorigin-attribute-in-html-script-tag.html)
+2. [关于1.的引申](https://stackoverflow.com/questions/18336789/purpose-of-the-crossorigin-attribute/18336863#18336863)
 
 > 打包工具
    
