@@ -58,7 +58,7 @@
 > 加密技术
 
 > css  
-
+1. box-shadow()
 > html  
 
 > js
@@ -69,6 +69,7 @@
 > seo
 
 > 缓存方案
+1. [Last-Modify、ETag、Expires和Cache-Control(转载)](https://www.cnblogs.com/coolmanlee/archive/2012/12/06/2805030.html)
 
 > 模块加载技术 主要是CJS、ESM
 1. [CJS、ESM的相互引用](https://medium.com/@giltayar/native-es-modules-in-nodejs-status-and-future-directions-part-i-ee5ea3001f71
@@ -91,3 +92,6 @@
 
 > canvas和可视化学习
 1. [图片到canvas上模糊的解决思路](https://www.html5rocks.com/en/tutorials/canvas/hidpi/)
+
+
+> 今日学习计划：
