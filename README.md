@@ -92,7 +92,7 @@
 
 > canvas和可视化学习
 1. [图片到canvas上模糊的解决思路](https://www.html5rocks.com/en/tutorials/canvas/hidpi/)
-
+2. [毛刺](https://www.cnblogs.com/joyho/articles/3557223.html)
 
 > 今日学习计划：
 
