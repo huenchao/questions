@@ -47,6 +47,9 @@
 
 > 前端各种距离
 
+> hybrid
+1. [原理](https://www.jianshu.com/p/f3d9382eae78)
+2. [为什么打开中间页可以唤起app](https://www.cnblogs.com/chaoyuehedy/p/8919656.html)
 
 > 监控
 1. [监控日志发现script error `crossorigin`](https://www.chrisyue.com/what-the-hell-is-crossorigin-attribute-in-html-script-tag.html)
