@@ -28,9 +28,11 @@
 2. [一篇真正教会你开发移动端页面的文章(二)](http://hcysun.me/2015/10/19/%E4%B8%80%E7%AF%87%E7%9C%9F%E6%AD%A3%E6%95%99%E4%BC%9A%E4%BD%A0%E5%BC%80%E5%8F%91%E7%A7%BB%E5%8A%A8%E7%AB%AF%E9%A1%B5%E9%9D%A2%E7%9A%84%E6%96%87%E7%AB%A0-%E4%BA%8C/)   
    -    2.1 rem的使用、字体要用媒体查询、以100px的html font-size来设置rem方面计算。
 3. 51信用卡移动端适配的参考（3.2）：
-   -    3.1 [文档一](https://github.com/amfe/lib-flexible/blob/2.0/index.js):这个脚本设置了（1）1rem = documentElement.clientWidth / 10（这其实并不好，因为阅读过2. 文章，我们知道始终设置docEl的font-size为100px,会更好计算其他元素的rem值，也更准确！）。（2）detect 0.5px supports.
+   -    3.1 [文档一](https://github.com/amfe/lib-flexible/blob/2.0/index.js):这个脚本设置了（1）1rem = documentElement.clientWidth / 10。（2）detect 0.5px supports.
    -    3.2 [文档二](https://github.com/amfe/article/issues/17):这篇文章里提到了`lib-flexible`和`px2rem`。
    -    3.3 [vh vw配合rem](https://juejin.im/entry/59b00e46f265da2491513bcc)
+
+4. [移动端适配的解释](https://www.cnblogs.com/liangxuru/p/6970629.html)   
 
 > 移动端视频自动播放问题
 1. 
