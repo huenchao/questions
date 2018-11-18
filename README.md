@@ -59,6 +59,8 @@
 2. [关于1.的引申](https://stackoverflow.com/questions/18336789/purpose-of-the-crossorigin-attribute/18336863#18336863)
 
 > 打包工具
+1.[webpack的基本了解](https://medium.com/@rajaraodv/webpack-the-confusing-parts-58712f8fcad9)
+
    
 
 > 加密技术
