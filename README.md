@@ -67,7 +67,7 @@
 
 > css  
 1. box-shadow()
-2.[link vs @import 主要关注的是并行加载的问题。貌似除了ie有些小问题，其他问题不大，主要是注意不要在link下来的css文件里又加@import url](http://stevesouders.com/tests/atimport/link-import.php?t=1542702962)
+2. [link vs @import 主要关注的是并行加载的问题。貌似除了ie有些小问题，其他问题不大，主要是注意不要在link下来的css文件里又加@import url](http://stevesouders.com/tests/atimport/link-import.php?t=1542702962)
 > html  
 
 > js
@@ -104,5 +104,6 @@
 2. [毛刺](https://www.cnblogs.com/joyho/articles/3557223.html)
 
 > 今日学习计划：
+1. shell 环境变量
 
 > 如果有想了解的方面，但是我上面没有提及的，请在issue上留言，我会补充上去。
