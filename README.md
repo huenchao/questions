@@ -103,6 +103,9 @@
 1. [图片到canvas上模糊的解决思路](https://www.html5rocks.com/en/tutorials/canvas/hidpi/)
 2. [毛刺](https://www.cnblogs.com/joyho/articles/3557223.html)
 
+> e2e测试（puppeteer+jest）
+1. [Time to First Meaningful Paint](https://docs.google.com/document/d/1BR94tJdZLsin5poeet0XoTW60M0SjvOJQttKT-JK8HI/view#heading=h.k50nnyhtptq0)
+
 > 今日学习计划：
 1. shell 环境变量
 
