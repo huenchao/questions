@@ -113,3 +113,8 @@
 > 如果有想了解的方面，但是我上面没有提及的，请在issue上留言，我会补充上去。
 > 本周计划：
 1. docker学习，镜像制作与安装实践。
+
+> todo 关注的人的文章笔记要读一读:
+https://segmentfault.com/u/sixwinds
+   -    2.4[帮助源码理解](http://f2e.souche.com/blog/a-js-problem-about-global/)笔记
+   -    2.4[帮助源码理解](http://f2e.souche.com/blog/a-js-problem-about-global/)
