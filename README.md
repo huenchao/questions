@@ -118,3 +118,5 @@
 https://segmentfault.com/u/sixwinds
    -    2.4[帮助源码理解](http://f2e.souche.com/blog/a-js-problem-about-global/)笔记
    -    2.4[帮助源码理解](http://f2e.souche.com/blog/a-js-problem-about-global/)
+> todolist:
+https://dev.to/khaosdoctor/node-js-under-the-hood-1-getting-to-know-our-tools-1465
